@@ -1,3 +1,3 @@
-# MrDetonia's Pages
+# Pages
 
-[Barotrauma Components Guide](barotrauma-components.md)
+- [Barotrauma Components Guide](barotrauma-components.md)
