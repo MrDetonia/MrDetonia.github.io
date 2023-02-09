@@ -6,6 +6,8 @@ layout: default
 
 A brief guide to wiring components in Barotrauma, their inputs and outputs, and a few example circuits.
 
+---
+
 ## Logic
 
 ### AND
@@ -26,6 +28,24 @@ Performs a logical AND on both of its inputs and outputs only if both inputs are
 
 - *SIGNAL_OUT*: Output signal
 
-### EQUALS
+---
 
+### Equals
 
+![Equals component](https://barotraumagame.com/baro-wiki/images/thumb/9/9e/Equals_Component.png/40px-Equals_Component.png_)
+
+![Equals component IO](wiring/EQUALS.png)
+
+Checks if both inputs are the same and outputs only if equal.
+
+#### INPUTS:
+
+| SIGNAL_IN_1 | Input of first signal |
+| SIGNAL_IN_2 | Input of second signal |
+| SET_OUTPUT | Signal to output when equal |
+
+#### OUTPUTS:
+
+| SIGNAL_OUT | Output signal |
+
+---
